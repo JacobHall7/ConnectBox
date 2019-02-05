@@ -417,14 +417,14 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="1140084168" package="1140084168" value="1140084168" x="-12.5" y="2" smashed="yes">
-<attribute name="AVAILABILITY" value="Unavailable" x="-12.5" y="2" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Conn; IC Socket; Micro SD; Right Angle; PCB Mount; MicroSD Ser. " x="-12.5" y="2" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Amphenol" x="-12.5" y="2" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="1140084168" x="-12.5" y="2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.28106875" y="-7.274090625" size="1.27078125" layer="25" align="center"/>
-<attribute name="PACKAGE" value="None" x="-12.5" y="2" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-12.5" y="2" size="1.778" layer="27" display="off"/>
+<element name="J1" library="1140084168" package="1140084168" value="1140084168" x="-18.5" y="24.5" smashed="yes">
+<attribute name="AVAILABILITY" value="Unavailable" x="-18.5" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Conn; IC Socket; Micro SD; Right Angle; PCB Mount; MicroSD Ser. " x="-18.5" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Amphenol" x="-18.5" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="1140084168" x="-18.5" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-13.28106875" y="15.225909375" size="1.27078125" layer="25" align="center"/>
+<attribute name="PACKAGE" value="None" x="-18.5" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-18.5" y="24.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="MCP73871-2CCI_ML" package="QFN50P400X400X100-21N" value="MCP73871-2CCI/ML" x="-7" y="-17" smashed="yes">
 <attribute name="DESCRIPTION" value=" Fully Integrated Single Cell Lithium Ion/Lithium Polymer Charge Management Contr " x="-7" y="-17" size="1.778" layer="27" display="off"/>
