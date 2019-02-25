@@ -64,6 +64,7 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCad" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
@@ -521,6 +522,33 @@
 <smd name="14" x="11.55" y="-0.213" dx="1.50193125" dy="1.001290625" layer="1" rot="R90"/>
 <text x="5.21893125" y="-9.274090625" size="1.27078125" layer="25" align="center">&gt;NAME</text>
 </package>
+<package name="OLED-I2C">
+<wire x1="-19.05" y1="5.08" x2="-16.51" y2="5.08" width="0.127" layer="51"/>
+<wire x1="-16.51" y1="5.08" x2="-16.51" y2="2.54" width="0.127" layer="51"/>
+<wire x1="-16.51" y1="2.54" x2="-16.51" y2="-5.08" width="0.127" layer="51"/>
+<wire x1="-16.51" y1="-5.08" x2="-19.05" y2="-5.08" width="0.127" layer="51"/>
+<wire x1="-19.05" y1="-5.08" x2="-19.05" y2="2.54" width="0.127" layer="51"/>
+<wire x1="-19.05" y1="2.54" x2="-19.05" y2="5.08" width="0.127" layer="51"/>
+<wire x1="-19.05" y1="6.35" x2="19.05" y2="6.35" width="0.254" layer="21"/>
+<wire x1="19.05" y1="6.35" x2="19.05" y2="-6.35" width="0.254" layer="21"/>
+<wire x1="19.05" y1="-6.35" x2="-19.05" y2="-6.35" width="0.254" layer="21"/>
+<wire x1="-19.05" y1="-6.35" x2="-19.05" y2="6.35" width="0.254" layer="21"/>
+<text x="0" y="0" size="1.524" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
+<wire x1="19.05" y1="6.35" x2="19.05" y2="-6.35" width="0.2032" layer="51"/>
+<wire x1="19.05" y1="-6.35" x2="-19.05" y2="-6.35" width="0.2032" layer="51"/>
+<wire x1="-19.05" y1="-6.35" x2="-19.05" y2="6.35" width="0.012" layer="57"/>
+<wire x1="-19.05" y1="6.35" x2="19.05" y2="6.35" width="0.012" layer="57"/>
+<text x="0" y="0" size="2.54" layer="51" ratio="10" align="center">&gt;NAME</text>
+<wire x1="-19.05" y1="2.54" x2="-16.51" y2="2.54" width="0.127" layer="51"/>
+<text x="-16.002" y="3.81" size="0.6096" layer="51" align="center-left">SDA</text>
+<text x="-16.002" y="1.27" size="0.6096" layer="51" align="center-left">SCL</text>
+<text x="-16.002" y="-1.27" size="0.6096" layer="51" align="center-left">VCC</text>
+<text x="-16.002" y="-3.81" size="0.6096" layer="51" align="center-left">GND</text>
+<wire x1="19.05" y1="-6.35" x2="-19.05" y2="-6.35" width="0.012" layer="57"/>
+<wire x1="19.05" y1="6.35" x2="19.05" y2="-6.35" width="0.012" layer="57"/>
+<wire x1="-19.05" y1="6.35" x2="19.05" y2="6.35" width="0.2032" layer="51"/>
+<wire x1="-19.05" y1="-6.35" x2="-19.05" y2="6.35" width="0.2032" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="1140084168">
@@ -737,6 +765,19 @@
 <text x="-1.905" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="OLED-I2C">
+<wire x1="-25.4" y1="-7.62" x2="25.4" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-7.62" x2="25.4" y2="5.08" width="0.254" layer="94"/>
+<wire x1="25.4" y1="5.08" x2="-25.4" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="5.08" x2="-25.4" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="-10.16" size="2.0828" layer="96" rot="R180" align="center">&gt;VALUE</text>
+<text x="0" y="7.62" size="2.0828" layer="95" rot="R180" align="center">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="94" font="vector" align="bottom-center">128x32 OLED Display</text>
+<wire x1="-17.78" y1="2.54" x2="-17.78" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-5.08" x2="22.86" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="2.54" x2="-17.78" y2="2.54" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MCP73871-2CCI/ML" prefix="U">
@@ -913,6 +954,18 @@ LETTER landscape</description>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OLED_I2C" prefix="U">
+<gates>
+<gate name="G$1" symbol="OLED-I2C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OLED-I2C">
 <technologies>
 <technology name=""/>
 </technologies>
