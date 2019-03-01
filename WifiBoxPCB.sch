@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -801,7 +801,7 @@ LETTER landscape</description>
 </classes>
 <parts>
 <part name="FRAME1" library="ConnectBox_2019" deviceset="FRAMES_LETTER_L" device=""/>
-<part name="J2" library="ConnectBox_2019" deviceset="1140084168_1140084168" device=""/>
+<part name="J2" library="ConnectBox_2019" deviceset="1140084168_1140084168" device="" value="microSD Socket"/>
 <part name="J1" library="ConnectBox_2019" deviceset="CONNECTOR_PI_40_PIN" device=""/>
 <part name="+3V1" library="ConnectBox_2019" deviceset="+3V3" device=""/>
 <part name="+3V2" library="ConnectBox_2019" deviceset="+3V3" device=""/>
@@ -810,7 +810,7 @@ LETTER landscape</description>
 <part name="U1" library="ConnectBox_2019" deviceset="OLED_I2C" device=""/>
 <part name="+3V3" library="ConnectBox_2019" deviceset="+3V3" device=""/>
 <part name="SUPPLY3" library="ConnectBox_2019" deviceset="GND" device=""/>
-<part name="J3" library="ConnectBox_2019" deviceset="CONNECTOR_4" device=""/>
+<part name="J3" library="ConnectBox_2019" deviceset="CONNECTOR_4" device="" value="OLED"/>
 </parts>
 <sheets>
 <sheet>
