@@ -762,6 +762,59 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 </package>
 </packages>
 </library>
+<library name="APU_ENGR480_UPS_EAGLE_Library">
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="BSS138">
+<wire x1="1.46" y1="0.65" x2="1.46" y2="-0.65" width="0.0012" layer="57"/>
+<wire x1="1.422" y1="-0.66" x2="-1.422" y2="-0.66" width="0.1524" layer="37"/>
+<wire x1="-1.422" y1="-0.66" x2="-1.422" y2="0.66" width="0.1524" layer="37"/>
+<wire x1="-1.422" y1="0.66" x2="1.422" y2="0.66" width="0.1524" layer="37"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="37"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="37"/>
+<smd name="D" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="S" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="G" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<rectangle x1="-0.2286" y1="0.7046" x2="0.2286" y2="1.2888" layer="37"/>
+<wire x1="-1.46" y1="-0.65" x2="-1.46" y2="0.65" width="0.0012" layer="57"/>
+<wire x1="-1.46" y1="0.65" x2="1.46" y2="0.65" width="0.0012" layer="57"/>
+<wire x1="1.422" y1="0.66" x2="1.422" y2="-0.66" width="0.1524" layer="37"/>
+<wire x1="1.46" y1="-0.65" x2="-1.46" y2="-0.65" width="0.0012" layer="57"/>
+<text x="-0.508" y="2.54" size="1.524" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="-1.27" x2="1.905" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="1.905" y1="-1.27" x2="1.905" y2="1.27" width="0.127" layer="51"/>
+<wire x1="1.905" y1="1.27" x2="-1.905" y2="1.27" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.778" layer="51" ratio="10" align="center">&gt;NAME</text>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="1.905" y1="1.27" x2="-1.905" y2="1.27" width="0.127" layer="39"/>
+<wire x1="1.905" y1="-1.27" x2="1.905" y2="1.27" width="0.127" layer="39"/>
+<wire x1="-1.905" y1="-1.27" x2="1.905" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="1.905" y1="1.27" x2="-1.905" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="1.905" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.905" y2="1.27" width="0.127" layer="21"/>
+<polygon width="0.1016" layer="21">
+<vertex x="-0.254" y="1.27"/>
+<vertex x="-0.254" y="0.762"/>
+<vertex x="0.254" y="0.762"/>
+<vertex x="0.254" y="1.27"/>
+</polygon>
+<polygon width="0.1016" layer="21">
+<vertex x="-1.143" y="-0.762"/>
+<vertex x="-1.143" y="-1.27"/>
+<vertex x="-0.762" y="-1.27"/>
+<vertex x="-0.762" y="-0.762"/>
+</polygon>
+<polygon width="0.1016" layer="21">
+<vertex x="0.762" y="-0.762"/>
+<vertex x="0.762" y="-1.27"/>
+<vertex x="1.143" y="-1.27"/>
+<vertex x="1.143" y="-0.762"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1043,6 +1096,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="RS_PRICE-STOCK" value="" x="-59" y="-64.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-59" y="-64.5" size="1.27" layer="27" align="center"/>
 </element>
+<element name="R4" library="ConnectBox_2019" package="RESC1608X55L25N" value="0.006R" x="-64" y="-71" smashed="yes">
+<attribute name="NAME" x="-62.222" y="-71" size="1.524" layer="25" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="-64" y="-71" size="1.016" layer="51" ratio="10" align="center"/>
+</element>
+<element name="Q1" library="APU_ENGR480_UPS_EAGLE_Library" package="BSS138" value="BSS138" x="-61.5" y="-79" smashed="yes">
+<attribute name="AVAILABILITY" value="Good" x="-61.5" y="-79" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="B138 Series 50 V 6 Ohms N-Ch Logic Level Enhancement Mode FET - SOT-23-3" x="-61.5" y="-79" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Fairchild Semiconductor" x="-61.5" y="-79" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="BSS138" x="-61.5" y="-79" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-61.5" y="-79" size="1.778" layer="51" ratio="10" align="center"/>
+<attribute name="NAME" x="-62.008" y="-76.46" size="1.524" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="-61.5" y="-79" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="19.46 USD" x="-61.5" y="-79" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1056,6 +1123,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R2" pad="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="U1" pad="25"/>
+<contactref element="U1" pad="5"/>
+<contactref element="U1" pad="4"/>
 <wire x1="-44.8" y1="-61" x2="-44.8" y2="-64" width="0" layer="19" extent="1-1"/>
 <wire x1="-44.8" y1="-58" x2="-44.8" y2="-61" width="0" layer="19" extent="1-1"/>
 <wire x1="-28" y1="-33.5" x2="-44.8" y2="-58" width="0" layer="19" extent="1-1"/>
@@ -1063,7 +1132,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="-12" y1="-31" x2="-8.93" y2="-33.71" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.2" y1="-22.325" x2="-12" y2="-31" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.5" y1="-12" x2="-16.2" y2="-22.325" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.5" y1="-0.5" x2="-20.5" y2="-12" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.435" y1="-1" x2="-20.5" y2="-12" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.435" y1="-0.5" x2="-22.435" y2="-1" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.5" y1="-0.5" x2="-22.435" y2="-0.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TO_PI">
 <contactref element="J4" pad="4"/>
@@ -1077,6 +1148,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="V_IN">
 <contactref element="J3" pad="1"/>
+<contactref element="U1" pad="6"/>
+<contactref element="R4" pad="1"/>
+<wire x1="-18.8" y1="-22.325" x2="-64.8" y2="-71" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.435" y1="-1.5" x2="-18.8" y2="-22.325" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="J5" pad="1"/>
@@ -1086,10 +1161,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="S1" pad="7"/>
 <contactref element="S1" pad="5"/>
 <contactref element="S1" pad="6"/>
+<contactref element="Q1" pad="D"/>
+<contactref element="U1" pad="1"/>
+<wire x1="-42.27" y1="-46.2" x2="-61.5" y2="-77.9" width="0" layer="19" extent="1-1"/>
 <wire x1="-39.73" y1="-46.2" x2="-42.27" y2="-46.2" width="0" layer="19" extent="1-1"/>
 <wire x1="-37.19" y1="-46.2" x2="-39.73" y2="-46.2" width="0" layer="19" extent="1-1"/>
 <wire x1="-19" y1="-31" x2="-37.19" y2="-46.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.5" y1="1.935" x2="-19" y2="-31" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.435" y1="1" x2="-19" y2="-31" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.5" y1="1.935" x2="-22.435" y2="1" width="0" layer="19" extent="1-1"/>
 <wire x1="8.37" y1="27.77" x2="-21.5" y2="1.935" width="0" layer="19" extent="1-1"/>
 <wire x1="10.91" y1="27.77" x2="8.37" y2="27.77" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1110,6 +1189,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R3" pad="2"/>
 <contactref element="S1" pad="3"/>
 <wire x1="-39.73" y1="-54.8" x2="-43.2" y2="-64" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="R4" pad="2"/>
+<contactref element="U1" pad="7"/>
+<contactref element="Q1" pad="S"/>
+<wire x1="-63.2" y1="-71" x2="-60.55" y2="-80.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.435" y1="-2" x2="-63.2" y2="-71" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="IGATE">
+<contactref element="U1" pad="15"/>
+<contactref element="Q1" pad="G"/>
+<wire x1="-18.565" y1="-1" x2="-62.45" y2="-80.1" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

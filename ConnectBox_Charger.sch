@@ -1336,6 +1336,126 @@ Source: &lt;a href="https://www.coilcraft.com/pdfs/xal60xx.pdf"&gt; Datasheet &l
 </deviceset>
 </devicesets>
 </library>
+<library name="APU_ENGR480_UPS_EAGLE_Library">
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="BSS138">
+<wire x1="1.46" y1="0.65" x2="1.46" y2="-0.65" width="0.0012" layer="57"/>
+<wire x1="1.422" y1="-0.66" x2="-1.422" y2="-0.66" width="0.1524" layer="37"/>
+<wire x1="-1.422" y1="-0.66" x2="-1.422" y2="0.66" width="0.1524" layer="37"/>
+<wire x1="-1.422" y1="0.66" x2="1.422" y2="0.66" width="0.1524" layer="37"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="37"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="37"/>
+<smd name="D" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="S" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="G" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<rectangle x1="-0.2286" y1="0.7046" x2="0.2286" y2="1.2888" layer="37"/>
+<wire x1="-1.46" y1="-0.65" x2="-1.46" y2="0.65" width="0.0012" layer="57"/>
+<wire x1="-1.46" y1="0.65" x2="1.46" y2="0.65" width="0.0012" layer="57"/>
+<wire x1="1.422" y1="0.66" x2="1.422" y2="-0.66" width="0.1524" layer="37"/>
+<wire x1="1.46" y1="-0.65" x2="-1.46" y2="-0.65" width="0.0012" layer="57"/>
+<text x="-0.508" y="2.54" size="1.524" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="-1.27" x2="1.905" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="1.905" y1="-1.27" x2="1.905" y2="1.27" width="0.127" layer="51"/>
+<wire x1="1.905" y1="1.27" x2="-1.905" y2="1.27" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.778" layer="51" ratio="10" align="center">&gt;NAME</text>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="1.905" y1="1.27" x2="-1.905" y2="1.27" width="0.127" layer="39"/>
+<wire x1="1.905" y1="-1.27" x2="1.905" y2="1.27" width="0.127" layer="39"/>
+<wire x1="-1.905" y1="-1.27" x2="1.905" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="1.905" y1="1.27" x2="-1.905" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="1.905" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.905" y2="1.27" width="0.127" layer="21"/>
+<polygon width="0.1016" layer="21">
+<vertex x="-0.254" y="1.27"/>
+<vertex x="-0.254" y="0.762"/>
+<vertex x="0.254" y="0.762"/>
+<vertex x="0.254" y="1.27"/>
+</polygon>
+<polygon width="0.1016" layer="21">
+<vertex x="-1.143" y="-0.762"/>
+<vertex x="-1.143" y="-1.27"/>
+<vertex x="-0.762" y="-1.27"/>
+<vertex x="-0.762" y="-0.762"/>
+</polygon>
+<polygon width="0.1016" layer="21">
+<vertex x="0.762" y="-0.762"/>
+<vertex x="0.762" y="-1.27"/>
+<vertex x="1.143" y="-1.27"/>
+<vertex x="1.143" y="-0.762"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="BSS138">
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<text x="-11.43" y="0" size="2.032" layer="96">&gt;VALUE</text>
+<text x="-11.43" y="2.54" size="2.032" layer="95">&gt;NAME</text>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="2.032" y="0.762"/>
+<vertex x="2.032" y="-0.762"/>
+</polygon>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BSS138" prefix="Q">
+<description>BSS138
+N-Channel Logic Level Enhancement Mode Field Effect Transistor
+
+from SnapEDA</description>
+<gates>
+<gate name="G$1" symbol="BSS138" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BSS138">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Good"/>
+<attribute name="DESCRIPTION" value="B138 Series 50 V 6 Ohms N-Ch Logic Level Enhancement Mode FET - SOT-23-3"/>
+<attribute name="MF" value="Fairchild Semiconductor"/>
+<attribute name="MP" value="BSS138"/>
+<attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor"/>
+<attribute name="PRICE" value="19.46 USD"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1351,7 +1471,6 @@ Source: &lt;a href="https://www.coilcraft.com/pdfs/xal60xx.pdf"&gt; Datasheet &l
 <part name="U1" library="ConnectBox_2019" deviceset="LTC4040" device=""/>
 <part name="J4" library="ConnectBox_2019" deviceset="CONNECTOR-6-FTDI" device="" value="FTDI Serial"/>
 <part name="SUPPLY1" library="ConnectBox_2019" deviceset="GND" device=""/>
-<part name="SUPPLY2" library="ConnectBox_2019" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="ConnectBox_2019" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="ConnectBox_2019" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="ConnectBox_2019" deviceset="GND" device=""/>
@@ -1373,6 +1492,11 @@ Source: &lt;a href="https://www.coilcraft.com/pdfs/xal60xx.pdf"&gt; Datasheet &l
 <part name="L2" library="ConnectBox_2019" deviceset="XAL6030-182MEB" device=""/>
 <part name="P+3" library="ConnectBox_2019" deviceset="+5V" device=""/>
 <part name="P+4" library="ConnectBox_2019" deviceset="+5V" device=""/>
+<part name="SUPPLY2" library="ConnectBox_2019" deviceset="GND" device=""/>
+<part name="R4" library="ConnectBox_2019" deviceset="RESISTOR" device="0603" value="0.006R"/>
+<part name="Q1" library="APU_ENGR480_UPS_EAGLE_Library" deviceset="BSS138" device=""/>
+<part name="P+5" library="ConnectBox_2019" deviceset="+5V" device=""/>
+<part name="P+6" library="ConnectBox_2019" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1386,7 +1510,6 @@ Resistors at USB-A to indicate output current
 <text x="33.02" y="83.82" size="1.778" layer="91" align="center">N/C</text>
 <text x="33.02" y="81.28" size="1.778" layer="91" align="center">N/C</text>
 <text x="33.02" y="73.66" size="1.778" layer="91" align="center">N/C</text>
-<text x="71.12" y="111.76" size="1.778" layer="91" align="center">N/C</text>
 <text x="90.17" y="62.23" size="1.778" layer="91">Li-Ion
 Switch 1 On</text>
 <text x="118.11" y="62.23" size="1.778" layer="91">Switch 3</text>
@@ -1434,9 +1557,6 @@ less charge/discharge longevity.</text>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="27.94" y="162.56" smashed="yes">
 <attribute name="VALUE" x="26.035" y="159.385" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY2" gate="GND" x="76.2" y="144.78" smashed="yes">
-<attribute name="VALUE" x="74.295" y="141.605" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY3" gate="GND" x="167.64" y="76.2" smashed="yes">
 <attribute name="VALUE" x="165.735" y="73.025" size="1.778" layer="96"/>
@@ -1510,6 +1630,23 @@ less charge/discharge longevity.</text>
 <instance part="P+4" gate="1" x="129.54" y="38.1" smashed="yes">
 <attribute name="VALUE" x="127" y="33.02" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="SUPPLY2" gate="GND" x="73.66" y="144.78" smashed="yes">
+<attribute name="VALUE" x="71.755" y="141.605" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="63.5" y="114.3" smashed="yes">
+<attribute name="VALUE" x="63.5" y="111.76" size="2.0828" layer="96" align="center"/>
+<attribute name="NAME" x="63.5" y="116.84" size="2.0828" layer="95" align="center"/>
+</instance>
+<instance part="Q1" gate="G$1" x="78.74" y="96.52" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="78.74" y="85.09" size="2.032" layer="96" rot="MR90"/>
+<attribute name="NAME" x="81.28" y="85.09" size="2.032" layer="95" rot="MR90"/>
+</instance>
+<instance part="P+5" gate="1" x="86.36" y="104.14" smashed="yes">
+<attribute name="VALUE" x="83.82" y="99.06" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+6" gate="1" x="66.04" y="134.62" smashed="yes">
+<attribute name="VALUE" x="63.5" y="129.54" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1557,8 +1694,18 @@ less charge/discharge longevity.</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND@25"/>
+<wire x1="73.66" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<wire x1="76.2" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="BSTOFF@5"/>
+<wire x1="81.28" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
+<label x="68.58" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="CHGOFF@4"/>
+<wire x1="81.28" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
+<label x="68.58" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TO_PI" class="0">
@@ -1595,8 +1742,16 @@ less charge/discharge longevity.</text>
 <net name="V_IN" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="VDD"/>
-<wire x1="45.72" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
 <label x="45.72" y="137.16" size="1.778" layer="95" rot="MR0"/>
+<wire x1="35.56" y1="137.16" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="137.16" x2="55.88" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VIN@6"/>
+<label x="68.58" y="119.38" size="1.778" layer="95"/>
+<wire x1="55.88" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="119.38" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
+<junction x="55.88" y="119.38"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -1635,6 +1790,17 @@ less charge/discharge longevity.</text>
 <wire x1="111.76" y1="27.94" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
 <junction x="116.84" y="27.94"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<pinref part="P+5" gate="1" pin="+5V"/>
+<wire x1="86.36" y1="101.6" x2="86.36" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VSYS@1"/>
+<pinref part="P+6" gate="1" pin="+5V"/>
+<wire x1="66.04" y1="132.08" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="F2" class="0">
@@ -1704,6 +1870,32 @@ less charge/discharge longevity.</text>
 <wire x1="88.9" y1="68.58" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="68.58" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="68.58" x2="116.84" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="114.3" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="CLN@7"/>
+<wire x1="71.12" y1="116.84" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="114.3" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
+<junction x="71.12" y="114.3"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="71.12" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IGATE" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="IGATE@15"/>
+<wire x1="132.08" y1="121.92" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
+<label x="132.08" y="121.92" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<wire x1="63.5" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="76.2" y1="91.44" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
+<label x="63.5" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
