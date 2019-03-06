@@ -967,8 +967,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value="Conn Micro USB Type B RCP 5 POS 0.65mm Solder RA SMD 5 Terminal 1 Port T/R" x="-17.5" y="-25" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="FCI" x="-17.5" y="-25" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="10118194-0001LF" x="-17.5" y="-25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-17.5" y="-24.365" size="2.54" layer="51" align="center"/>
 <attribute name="NAME" x="-22" y="-25.9" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="-17.5" y="-24.365" size="2.54" layer="51" align="center"/>
 <attribute name="PACKAGE" value="DIP-4 FCI" x="-17.5" y="-25" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="0.24 USD" x="-17.5" y="-25" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-11.6" y="-24.9" size="1.27" layer="27" rot="R90"/>
@@ -1047,19 +1047,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signals>
 <signal name="GND">
 <contactref element="J4" pad="1"/>
-<contactref element="J1" pad="39"/>
-<contactref element="J1" pad="25"/>
-<contactref element="J1" pad="9"/>
-<contactref element="U1" pad="25"/>
 <contactref element="J3" pad="5"/>
 <contactref element="J5" pad="MH2" route="any" routetag="G$1.SHIELD"/>
 <contactref element="J5" pad="MH1" route="any" routetag="G$1.SHIELD"/>
 <contactref element="J5" pad="4"/>
 <contactref element="J2" pad="2"/>
-<contactref element="U1" pad="17"/>
 <contactref element="R3" pad="1"/>
 <contactref element="R2" pad="1"/>
 <contactref element="R1" pad="1"/>
+<contactref element="U1" pad="25"/>
 <wire x1="-44.8" y1="-61" x2="-44.8" y2="-64" width="0" layer="19" extent="1-1"/>
 <wire x1="-44.8" y1="-58" x2="-44.8" y2="-61" width="0" layer="19" extent="1-1"/>
 <wire x1="-28" y1="-33.5" x2="-44.8" y2="-58" width="0" layer="19" extent="1-1"/>
@@ -1068,10 +1064,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="-16.2" y1="-22.325" x2="-12" y2="-31" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.5" y1="-12" x2="-16.2" y2="-22.325" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.5" y1="-0.5" x2="-20.5" y2="-12" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.565" y1="0" x2="-20.5" y2="-0.5" width="0" layer="19" extent="1-1"/>
-<wire x1="18.53" y1="25.23" x2="-18.565" y2="0" width="0" layer="19" extent="1-1"/>
-<wire x1="38.85" y1="25.23" x2="18.53" y2="25.23" width="0" layer="19" extent="1-1"/>
-<wire x1="56.63" y1="25.23" x2="38.85" y2="25.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TO_PI">
 <contactref element="J4" pad="4"/>
@@ -1085,43 +1077,39 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="V_IN">
 <contactref element="J3" pad="1"/>
-<contactref element="S1" pad="7"/>
-<contactref element="S1" pad="5"/>
-<contactref element="S1" pad="6"/>
-<wire x1="-39.73" y1="-46.2" x2="-42.27" y2="-46.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.19" y1="-46.2" x2="-39.73" y2="-46.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.8" y1="-22.325" x2="-37.19" y2="-46.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="J5" pad="1"/>
 <contactref element="J1" pad="4"/>
 <contactref element="J1" pad="2"/>
-<wire x1="8.37" y1="27.77" x2="-19" y2="-31" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="24"/>
+<contactref element="S1" pad="7"/>
+<contactref element="S1" pad="5"/>
+<contactref element="S1" pad="6"/>
+<wire x1="-39.73" y1="-46.2" x2="-42.27" y2="-46.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.19" y1="-46.2" x2="-39.73" y2="-46.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-19" y1="-31" x2="-37.19" y2="-46.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.5" y1="1.935" x2="-19" y2="-31" width="0" layer="19" extent="1-1"/>
+<wire x1="8.37" y1="27.77" x2="-21.5" y2="1.935" width="0" layer="19" extent="1-1"/>
 <wire x1="10.91" y1="27.77" x2="8.37" y2="27.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATT">
 <contactref element="J2" pad="1"/>
 </signal>
 <signal name="F2">
-<contactref element="U1" pad="12"/>
 <contactref element="S1" pad="1"/>
 <contactref element="R1" pad="2"/>
 <wire x1="-44.81" y1="-54.8" x2="-43.2" y2="-58" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.5" y1="-2.935" x2="-44.81" y2="-54.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="F1">
-<contactref element="U1" pad="13"/>
 <contactref element="S1" pad="2"/>
 <contactref element="R2" pad="2"/>
 <wire x1="-42.27" y1="-54.8" x2="-43.2" y2="-61" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.565" y1="-2" x2="-42.27" y2="-54.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="F0">
-<contactref element="U1" pad="14"/>
 <contactref element="R3" pad="2"/>
 <contactref element="S1" pad="3"/>
 <wire x1="-39.73" y1="-54.8" x2="-43.2" y2="-64" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.565" y1="-1.5" x2="-39.73" y2="-54.8" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

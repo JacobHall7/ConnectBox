@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -776,85 +776,86 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 <text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
 </symbol>
 <symbol name="CONNECTOR_PI_40_PIN">
-<wire x1="-17.78" y1="50.8" x2="-17.78" y2="-50.8" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="50.8" x2="17.78" y2="50.8" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-50.8" x2="17.78" y2="50.8" width="0.254" layer="94"/>
-<pin name="5V@2" x="22.86" y="48.26" length="middle" rot="R180"/>
-<pin name="3.3V@1" x="-22.86" y="48.26" length="middle"/>
-<pin name="I2C_SDA@3" x="-22.86" y="43.18" length="middle"/>
-<pin name="5V@4" x="22.86" y="43.18" length="middle" rot="R180"/>
-<pin name="I2C_SCL@5" x="-22.86" y="38.1" length="middle"/>
-<pin name="GND@6" x="22.86" y="38.1" length="middle" rot="R180"/>
-<pin name="DOW@7" x="-22.86" y="33.02" length="middle"/>
-<pin name="UART_TX@8" x="22.86" y="33.02" length="middle" rot="R180"/>
-<pin name="GND@9" x="-22.86" y="27.94" length="middle"/>
-<pin name="UART_RX@10" x="22.86" y="27.94" length="middle" rot="R180"/>
-<pin name="GPIO_17@11" x="-22.86" y="22.86" length="middle"/>
-<pin name="PCM_CLK@12" x="22.86" y="22.86" length="middle" rot="R180"/>
-<pin name="GPIO_27@13" x="-22.86" y="17.78" length="middle"/>
-<pin name="GND@14" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="GPIO_22@15" x="-22.86" y="12.7" length="middle"/>
-<pin name="GPIO_23@16" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="3.3V@17" x="-22.86" y="7.62" length="middle"/>
-<pin name="GPIO_24@18" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="SPI_MOSI@19" x="-22.86" y="2.54" length="middle"/>
-<pin name="GND@20" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="SPI_MISO@21" x="-22.86" y="-2.54" length="middle"/>
-<pin name="GPIO_25@22" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="SPI_SCLK@23" x="-22.86" y="-7.62" length="middle"/>
-<pin name="SPI_CE0@24" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="GND@25" x="-22.86" y="-12.7" length="middle"/>
-<pin name="SPI_CE1@26" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="ID_SD@27" x="-22.86" y="-17.78" length="middle"/>
-<pin name="ID_SC@28" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="GPIO_5@29" x="-22.86" y="-22.86" length="middle"/>
-<pin name="GND@30" x="22.86" y="-22.86" length="middle" rot="R180"/>
-<pin name="GPIO_6@31" x="-22.86" y="-27.94" length="middle"/>
-<pin name="GPIO_12@32" x="22.86" y="-27.94" length="middle" rot="R180"/>
-<pin name="GPIO_13@33" x="-22.86" y="-33.02" length="middle"/>
-<pin name="GND@34" x="22.86" y="-33.02" length="middle" rot="R180"/>
-<pin name="GPIO_19@35" x="-22.86" y="-38.1" length="middle"/>
-<pin name="GPIO_16@36" x="22.86" y="-38.1" length="middle" rot="R180"/>
-<pin name="GPIO_26@37" x="-22.86" y="-43.18" length="middle"/>
-<pin name="GPIO_20@38" x="22.86" y="-43.18" length="middle" rot="R180"/>
-<pin name="GND@39" x="-22.86" y="-48.26" length="middle"/>
-<pin name="GPIO_21@40" x="22.86" y="-48.26" length="middle" rot="R180"/>
-<wire x1="-17.78" y1="-50.8" x2="17.78" y2="-50.8" width="0.254" layer="94"/>
-<text x="0" y="53.34" size="2.54" layer="95" align="center">&gt;NAME</text>
-<text x="0" y="-53.34" size="2.54" layer="96" align="center">&gt;VALUE</text>
+<wire x1="-12.7" y1="27.94" x2="-12.7" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="27.94" x2="12.7" y2="27.94" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-25.4" x2="12.7" y2="27.94" width="0.254" layer="94"/>
+<pin name="5V@2" x="17.78" y="25.4" length="middle" rot="R180"/>
+<pin name="3.3V@1" x="-17.78" y="25.4" length="middle"/>
+<pin name="I2C_SDA@3" x="-17.78" y="22.86" length="middle"/>
+<pin name="5V@4" x="17.78" y="22.86" length="middle" rot="R180"/>
+<pin name="I2C_SCL@5" x="-17.78" y="20.32" length="middle"/>
+<pin name="GND@6" x="17.78" y="20.32" length="middle" rot="R180"/>
+<pin name="DOW@7" x="-17.78" y="17.78" length="middle"/>
+<pin name="UART_TX@8" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="GND@9" x="-17.78" y="15.24" length="middle"/>
+<pin name="UART_RX@10" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="GPIO_17@11" x="-17.78" y="12.7" length="middle"/>
+<pin name="PCM_CLK@12" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="GPIO_27@13" x="-17.78" y="10.16" length="middle"/>
+<pin name="GND@14" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="GPIO_22@15" x="-17.78" y="7.62" length="middle"/>
+<pin name="GPIO_23@16" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="3.3V@17" x="-17.78" y="5.08" length="middle"/>
+<pin name="GPIO_24@18" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="SPI_MOSI@19" x="-17.78" y="2.54" length="middle"/>
+<pin name="GND@20" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="SPI_MISO@21" x="-17.78" y="0" length="middle"/>
+<pin name="GPIO_25@22" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="SPI_SCLK@23" x="-17.78" y="-2.54" length="middle"/>
+<pin name="SPI_CE0@24" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND@25" x="-17.78" y="-5.08" length="middle"/>
+<pin name="SPI_CE1@26" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="ID_SD@27" x="-17.78" y="-7.62" length="middle"/>
+<pin name="ID_SC@28" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="GPIO_5@29" x="-17.78" y="-10.16" length="middle"/>
+<pin name="GND@30" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="GPIO_6@31" x="-17.78" y="-12.7" length="middle"/>
+<pin name="GPIO_12@32" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="GPIO_13@33" x="-17.78" y="-15.24" length="middle"/>
+<pin name="GND@34" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="GPIO_19@35" x="-17.78" y="-17.78" length="middle"/>
+<pin name="GPIO_16@36" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="GPIO_26@37" x="-17.78" y="-20.32" length="middle"/>
+<pin name="GPIO_20@38" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="GND@39" x="-17.78" y="-22.86" length="middle"/>
+<pin name="GPIO_21@40" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="-25.4" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
+<text x="0" y="30.48" size="2.54" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-27.94" size="2.54" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="LTC4040">
-<pin name="VSYS@1" x="-27.94" y="15.24" length="middle"/>
-<pin name="PROG@2" x="-27.94" y="10.16" length="middle"/>
-<pin name="CLPROG@3" x="-27.94" y="5.08" length="middle"/>
-<pin name="CHGOFF@4" x="-27.94" y="0" length="middle"/>
-<pin name="BSTOFF@5" x="-27.94" y="-5.08" length="middle"/>
-<pin name="VIN@6" x="-27.94" y="-10.16" length="middle"/>
-<pin name="CLN@7" x="-27.94" y="-15.24" length="middle"/>
-<pin name="!CHRG@8" x="-7.62" y="-30.48" length="middle" rot="R90"/>
-<pin name="!FAULT@9" x="-2.54" y="-30.48" length="middle" rot="R90"/>
-<pin name="RSTFB@10" x="2.54" y="-30.48" length="middle" rot="R90"/>
-<pin name="!RST@11" x="7.62" y="-30.48" length="middle" rot="R90"/>
-<pin name="F2@12" x="12.7" y="-30.48" length="middle" rot="R90"/>
-<pin name="F1@13" x="27.94" y="-15.24" length="middle" rot="R180"/>
-<pin name="F0@14" x="27.94" y="-10.16" length="middle" rot="R180"/>
-<pin name="IGATE@15" x="27.94" y="-5.08" length="middle" rot="R180"/>
-<pin name="OVSNS@16" x="27.94" y="0" length="middle" rot="R180"/>
-<pin name="NTC@17" x="27.94" y="5.08" length="middle" rot="R180"/>
-<pin name="BSTFB@18" x="27.94" y="10.16" length="middle" rot="R180"/>
-<pin name="PFI@19" x="27.94" y="15.24" length="middle" rot="R180"/>
-<pin name="!PF0@20" x="12.7" y="30.48" length="middle" rot="R270"/>
-<pin name="SW@21" x="7.62" y="30.48" length="middle" rot="R270"/>
-<pin name="SW@22" x="2.54" y="30.48" length="middle" rot="R270"/>
-<pin name="BAT@23" x="-2.54" y="30.48" length="middle" rot="R270"/>
-<pin name="VSYS@24" x="-7.62" y="30.48" length="middle" rot="R270"/>
-<pin name="GND@25" x="-12.7" y="30.48" length="middle" rot="R270"/>
-<wire x1="-22.86" y1="25.4" x2="-22.86" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="-25.4" x2="22.86" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-25.4" x2="22.86" y2="25.4" width="0.254" layer="94"/>
-<wire x1="22.86" y1="25.4" x2="-22.86" y2="25.4" width="0.254" layer="94"/>
-<text x="22.86" y="27.94" size="1.778" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="22.86" y="-27.94" size="1.778" layer="96" align="bottom-right">&gt;VALUE</text>
+<pin name="VSYS@1" x="-20.32" y="5.08" length="middle"/>
+<pin name="PROG@2" x="-20.32" y="2.54" length="middle"/>
+<pin name="CLPROG@3" x="-20.32" y="0" length="middle"/>
+<pin name="CHGOFF@4" x="-20.32" y="-2.54" length="middle"/>
+<pin name="BSTOFF@5" x="-20.32" y="-5.08" length="middle"/>
+<pin name="VIN@6" x="-20.32" y="-7.62" length="middle"/>
+<pin name="CLN@7" x="-20.32" y="-10.16" length="middle"/>
+<pin name="!CHRG@8" x="-5.08" y="-22.86" length="middle" rot="R90"/>
+<pin name="!FAULT@9" x="-2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="RSTFB@10" x="0" y="-22.86" length="middle" rot="R90"/>
+<pin name="!RST@11" x="2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="F2@12" x="5.08" y="-22.86" length="middle" rot="R90"/>
+<pin name="F1@13" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="F0@14" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="IGATE@15" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="OVSNS@16" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="NTC@17" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="BSTFB@18" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="PFI@19" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="!PF0@20" x="5.08" y="20.32" length="middle" rot="R270"/>
+<pin name="SW@21" x="2.54" y="20.32" length="middle" rot="R270"/>
+<pin name="SW@22" x="0" y="20.32" length="middle" rot="R270"/>
+<pin name="BAT@23" x="-2.54" y="20.32" length="middle" rot="R270"/>
+<pin name="VSYS@24" x="-5.08" y="20.32" length="middle" rot="R270"/>
+<pin name="GND@25" x="-7.62" y="20.32" length="middle" rot="R270"/>
+<wire x1="-15.24" y1="15.24" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
+<text x="12.7" y="17.78" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="27.94" y="-38.1" size="1.778" layer="96" align="bottom-right">&gt;VALUE</text>
+<text x="7.62" y="-20.32" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 </symbol>
 <symbol name="CONNECTOR-6-FTDI">
 <wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
@@ -1370,21 +1371,22 @@ Source: &lt;a href="https://www.coilcraft.com/pdfs/xal60xx.pdf"&gt; Datasheet &l
 <part name="SUPPLY10" library="ConnectBox_2019" deviceset="GND" device=""/>
 <part name="IC1" library="ConnectBox_2019" deviceset="M24C32-RDW6TP" device=""/>
 <part name="L2" library="ConnectBox_2019" deviceset="XAL6030-182MEB" device=""/>
+<part name="P+3" library="ConnectBox_2019" deviceset="+5V" device=""/>
+<part name="P+4" library="ConnectBox_2019" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="-2.54" y="185.42" size="3.81" layer="89" align="top-right">  Todo:
-Resistors at USB-A to indicate output current</text>
+Resistors at USB-A to indicate output current
+100uF low ESR for LTC4040 Vsys</text>
 <text x="7.62" y="137.16" size="1.778" layer="91" align="center">N/C</text>
 <text x="7.62" y="134.62" size="1.778" layer="91" align="center">N/C</text>
 <text x="7.62" y="132.08" size="1.778" layer="91" align="center">N/C</text>
 <text x="33.02" y="83.82" size="1.778" layer="91" align="center">N/C</text>
 <text x="33.02" y="81.28" size="1.778" layer="91" align="center">N/C</text>
 <text x="33.02" y="73.66" size="1.778" layer="91" align="center">N/C</text>
-<text x="71.12" y="132.08" size="1.778" layer="91" align="center">N/C</text>
 <text x="71.12" y="111.76" size="1.778" layer="91" align="center">N/C</text>
-<text x="132.08" y="127" size="1.778" layer="91" align="center">N/C</text>
 <text x="90.17" y="62.23" size="1.778" layer="91">Li-Ion
 Switch 1 On</text>
 <text x="118.11" y="62.23" size="1.778" layer="91">Switch 3</text>
@@ -1419,8 +1421,8 @@ less charge/discharge longevity.</text>
 <attribute name="DRAWING_NAME" x="165.1" y="19.05" size="2.54" layer="94"/>
 </instance>
 <instance part="J1" gate="G$1" x="200.66" y="124.46" smashed="yes">
-<attribute name="NAME" x="200.66" y="177.8" size="2.54" layer="95" align="center"/>
-<attribute name="VALUE" x="200.66" y="71.12" size="2.54" layer="96" align="center"/>
+<attribute name="NAME" x="200.66" y="154.94" size="2.54" layer="95" align="center"/>
+<attribute name="VALUE" x="200.66" y="96.52" size="2.54" layer="96" align="center"/>
 </instance>
 <instance part="U1" gate="G$1" x="101.6" y="127" smashed="yes">
 <attribute name="NAME" x="124.46" y="154.94" size="1.778" layer="95" align="bottom-right"/>
@@ -1433,8 +1435,8 @@ less charge/discharge longevity.</text>
 <instance part="SUPPLY1" gate="GND" x="27.94" y="162.56" smashed="yes">
 <attribute name="VALUE" x="26.035" y="159.385" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY2" gate="GND" x="73.66" y="154.94" smashed="yes">
-<attribute name="VALUE" x="71.755" y="151.765" size="1.778" layer="96"/>
+<instance part="SUPPLY2" gate="GND" x="76.2" y="144.78" smashed="yes">
+<attribute name="VALUE" x="74.295" y="141.605" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY3" gate="GND" x="167.64" y="76.2" smashed="yes">
 <attribute name="VALUE" x="165.735" y="73.025" size="1.778" layer="96"/>
@@ -1469,15 +1471,15 @@ less charge/discharge longevity.</text>
 <attribute name="NAME" x="20.3229" y="170.69571875" size="1.272509375" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="20.32811875" y="160.75731875" size="1.275409375" layer="96" rot="MR0"/>
 </instance>
-<instance part="P+2" gate="1" x="231.14" y="180.34" smashed="yes">
-<attribute name="VALUE" x="228.6" y="175.26" size="1.778" layer="96" rot="R90"/>
+<instance part="P+2" gate="1" x="231.14" y="157.48" smashed="yes">
+<attribute name="VALUE" x="228.6" y="152.4" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY9" gate="GND" x="139.7" y="132.08" smashed="yes">
 <attribute name="VALUE" x="137.795" y="128.905" size="1.778" layer="96"/>
 </instance>
 <instance part="S1" gate="G$1" x="91.44" y="30.48" smashed="yes">
-<attribute name="NAME" x="107.95" y="38.1" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="107.95" y="35.56" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="100.33" y="35.56" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="92.71" y="17.78" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="R1" gate="G$1" x="63.5" y="30.48" smashed="yes">
 <attribute name="VALUE" x="63.5" y="27.94" size="2.0828" layer="96" align="center"/>
@@ -1502,6 +1504,12 @@ less charge/discharge longevity.</text>
 <attribute name="NAME" x="138.43" y="171.45" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="138.43" y="168.91" size="1.778" layer="96" align="center-left"/>
 </instance>
+<instance part="P+3" gate="1" x="96.52" y="162.56" smashed="yes">
+<attribute name="VALUE" x="93.98" y="157.48" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+4" gate="1" x="129.54" y="38.1" smashed="yes">
+<attribute name="VALUE" x="127" y="33.02" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1512,34 +1520,6 @@ less charge/discharge longevity.</text>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <wire x1="38.1" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="GND@39"/>
-<pinref part="SUPPLY3" gate="GND" pin="GND"/>
-<wire x1="167.64" y1="78.74" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="78.74" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="76.2" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="GND@25"/>
-<pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<wire x1="167.64" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="114.3" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="GND@9"/>
-<pinref part="SUPPLY6" gate="GND" pin="GND"/>
-<wire x1="167.64" y1="154.94" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="154.94" x2="172.72" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="152.4" x2="177.8" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="GND@25"/>
-<wire x1="88.9" y1="157.48" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="162.56" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<wire x1="73.66" y1="162.56" x2="73.66" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
@@ -1562,13 +1542,6 @@ less charge/discharge longevity.</text>
 <junction x="22.86" y="27.94"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="NTC@17"/>
-<wire x1="129.54" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="132.08" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="SUPPLY9" gate="GND" pin="GND"/>
-<wire x1="134.62" y1="134.62" x2="139.7" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="53.34" y1="10.16" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="15.24" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
@@ -1582,6 +1555,11 @@ less charge/discharge longevity.</text>
 <wire x1="53.34" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND@25"/>
+<pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<wire x1="76.2" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="TO_PI" class="0">
 <segment>
@@ -1591,8 +1569,8 @@ less charge/discharge longevity.</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="UART_RX@10"/>
-<wire x1="236.22" y1="152.4" x2="223.52" y2="152.4" width="0.1524" layer="91"/>
-<label x="236.22" y="152.4" size="1.778" layer="95" rot="MR0"/>
+<wire x1="231.14" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
+<label x="231.14" y="139.7" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="FROM_PI" class="0">
@@ -1603,8 +1581,8 @@ less charge/discharge longevity.</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="UART_TX@8"/>
-<wire x1="236.22" y1="157.48" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
-<label x="236.22" y="157.48" size="1.778" layer="95" rot="MR0"/>
+<wire x1="231.14" y1="142.24" x2="218.44" y2="142.24" width="0.1524" layer="91"/>
+<label x="231.14" y="142.24" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="BATT" class="0">
@@ -1620,20 +1598,6 @@ less charge/discharge longevity.</text>
 <wire x1="45.72" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
 <label x="45.72" y="137.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
-<segment>
-<pinref part="S1" gate="G$1" pin="7"/>
-<wire x1="111.76" y1="25.4" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="25.4" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="27.94" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="30.48" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="5"/>
-<wire x1="116.84" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
-<junction x="116.84" y="30.48"/>
-<pinref part="S1" gate="G$1" pin="6"/>
-<wire x1="111.76" y1="27.94" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
-<junction x="116.84" y="27.94"/>
-<label x="129.54" y="30.48" size="1.778" layer="95" rot="MR0"/>
-</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -1644,21 +1608,36 @@ less charge/discharge longevity.</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="5V@4"/>
-<wire x1="223.52" y1="167.64" x2="231.14" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="147.32" x2="231.14" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<wire x1="231.14" y1="167.64" x2="231.14" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="147.32" x2="231.14" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="5V@2"/>
-<wire x1="231.14" y1="172.72" x2="231.14" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="172.72" x2="223.52" y2="172.72" width="0.1524" layer="91"/>
-<junction x="231.14" y="172.72"/>
+<wire x1="231.14" y1="149.86" x2="231.14" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="149.86" x2="218.44" y2="149.86" width="0.1524" layer="91"/>
+<junction x="231.14" y="149.86"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VSYS@24"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<wire x1="96.52" y1="160.02" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="7"/>
+<wire x1="111.76" y1="25.4" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="25.4" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="27.94" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="30.48" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="30.48" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="5"/>
+<wire x1="116.84" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
+<junction x="116.84" y="30.48"/>
+<pinref part="S1" gate="G$1" pin="6"/>
+<wire x1="111.76" y1="27.94" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
+<junction x="116.84" y="27.94"/>
+<pinref part="P+4" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="F2" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="F2@12"/>
-<wire x1="114.3" y1="86.36" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
-<label x="114.3" y="86.36" size="1.778" layer="95" rot="R90"/>
-</segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="1"/>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -1671,11 +1650,6 @@ less charge/discharge longevity.</text>
 </segment>
 </net>
 <net name="F1" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="F1@13"/>
-<wire x1="139.7" y1="111.76" x2="129.54" y2="111.76" width="0.1524" layer="91"/>
-<label x="139.7" y="111.76" size="1.778" layer="95" rot="MR0"/>
-</segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="27.94" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
@@ -1690,11 +1664,6 @@ less charge/discharge longevity.</text>
 </segment>
 </net>
 <net name="F0" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="F0@14"/>
-<wire x1="139.7" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
-<label x="139.7" y="116.84" size="1.778" layer="95" rot="MR0"/>
-</segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="15.24" x2="71.12" y2="15.24" width="0.1524" layer="91"/>
