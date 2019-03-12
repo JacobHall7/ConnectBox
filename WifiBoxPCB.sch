@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -417,11 +417,11 @@
 </package>
 <package name="OLED-I2C">
 <wire x1="-19.05" y1="5.08" x2="-16.51" y2="5.08" width="0.127" layer="51"/>
-<wire x1="-16.51" y1="5.08" x2="-16.51" y2="2.54" width="0.127" layer="51"/>
-<wire x1="-16.51" y1="2.54" x2="-16.51" y2="-5.08" width="0.127" layer="51"/>
+<wire x1="-16.51" y1="5.08" x2="-16.51" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-16.51" y1="-2.54" x2="-16.51" y2="-5.08" width="0.127" layer="51"/>
 <wire x1="-16.51" y1="-5.08" x2="-19.05" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="-19.05" y1="-5.08" x2="-19.05" y2="2.54" width="0.127" layer="51"/>
-<wire x1="-19.05" y1="2.54" x2="-19.05" y2="5.08" width="0.127" layer="51"/>
+<wire x1="-19.05" y1="-5.08" x2="-19.05" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-19.05" y1="-2.54" x2="-19.05" y2="5.08" width="0.127" layer="51"/>
 <wire x1="-19.05" y1="6.35" x2="19.05" y2="6.35" width="0.254" layer="21"/>
 <wire x1="19.05" y1="6.35" x2="19.05" y2="-6.35" width="0.254" layer="21"/>
 <wire x1="19.05" y1="-6.35" x2="-19.05" y2="-6.35" width="0.254" layer="21"/>
@@ -432,7 +432,7 @@
 <wire x1="-19.05" y1="-6.35" x2="-19.05" y2="6.35" width="0.012" layer="57"/>
 <wire x1="-19.05" y1="6.35" x2="19.05" y2="6.35" width="0.012" layer="57"/>
 <text x="0" y="0" size="2.54" layer="51" ratio="10" align="center">&gt;NAME</text>
-<wire x1="-19.05" y1="2.54" x2="-16.51" y2="2.54" width="0.127" layer="51"/>
+<wire x1="-19.05" y1="-2.54" x2="-16.51" y2="-2.54" width="0.127" layer="51"/>
 <text x="-16.002" y="3.81" size="0.6096" layer="51" align="center-left">SDA</text>
 <text x="-16.002" y="1.27" size="0.6096" layer="51" align="center-left">SCL</text>
 <text x="-16.002" y="-1.27" size="0.6096" layer="51" align="center-left">VCC</text>
