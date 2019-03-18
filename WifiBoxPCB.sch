@@ -161,34 +161,6 @@
 <libraries>
 <library name="ConnectBox_2019">
 <packages>
-<package name="1140084168_1140084168">
-<circle x="9.15891875" y="-12.4547" radius="0.10645625" width="0.2" layer="25"/>
-<wire x1="0" y1="0" x2="11.9573" y2="0" width="0.2" layer="51"/>
-<wire x1="11.9573" y1="0" x2="11.9631" y2="0" width="0.2" layer="51"/>
-<wire x1="11.9573" y1="0" x2="11.9573" y2="-11.457" width="0.2" layer="51"/>
-<wire x1="11.9511" y1="-11.451" x2="0" y2="-11.451" width="0.2" layer="51"/>
-<wire x1="0" y1="-11.4661" x2="0" y2="0" width="0.2" layer="51"/>
-<wire x1="0" y1="0" x2="10.6308" y2="0" width="0.2" layer="25"/>
-<wire x1="0" y1="-5.73481875" x2="0" y2="-9.770740625" width="0.2" layer="25"/>
-<wire x1="0" y1="-5.729409375" x2="0" y2="-4.38838125" width="0.2" layer="25"/>
-<wire x1="11.9595" y1="-5.72953125" x2="11.9595" y2="-9.840790625" width="0.2" layer="25"/>
-<wire x1="11.9625" y1="-5.73098125" x2="11.9625" y2="-3.582740625" width="0.2" layer="25"/>
-<smd name="1" x="9.175" y="-11.038" dx="1.750440625" dy="0.700175" layer="1" rot="R90"/>
-<smd name="2" x="8.075" y="-11.038" dx="1.75298125" dy="0.701190625" layer="1" rot="R90"/>
-<smd name="3" x="6.975" y="-11.038" dx="1.751609375" dy="0.70064375" layer="1" rot="R90"/>
-<smd name="4" x="5.875" y="-11.038" dx="1.75218125" dy="0.700871875" layer="1" rot="R90"/>
-<smd name="5" x="4.775" y="-11.038" dx="1.752459375" dy="0.70098125" layer="1" rot="R90"/>
-<smd name="6" x="3.675" y="-11.038" dx="1.75043125" dy="0.700175" layer="1" rot="R90"/>
-<smd name="7" x="2.575" y="-11.038" dx="1.75176875" dy="0.700709375" layer="1" rot="R90"/>
-<smd name="8" x="1.475" y="-11.038" dx="1.752640625" dy="0.70105625" layer="1" rot="R90"/>
-<smd name="9" x="0.175" y="-10.913" dx="1.50091875" dy="1.50091875" layer="1"/>
-<smd name="10" x="11.625" y="-10.913" dx="1.5018" dy="1.5018" layer="1"/>
-<smd name="11" x="0" y="-3.313" dx="1.5011" dy="0.800584375" layer="1" rot="R90"/>
-<smd name="12" x="11.95" y="-2.663" dx="1.400640625" dy="0.8003625" layer="1" rot="R90"/>
-<smd name="13" x="0.355" y="-1.813" dx="1.500009375" dy="1.000009375" layer="1"/>
-<smd name="14" x="11.55" y="-0.213" dx="1.50193125" dy="1.001290625" layer="1" rot="R90"/>
-<text x="5.21893125" y="-9.274090625" size="1.27078125" layer="25" align="center">&gt;NAME</text>
-</package>
 <package name="2X20" urn="urn:adsk.eagle:footprint:6240133/1" locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-25.4" y1="-1.905" x2="-24.765" y2="-2.54" width="0.1524" layer="21"/>
@@ -484,6 +456,43 @@
 <wire x1="9.144" y1="-1.206" x2="-1.524" y2="-1.206" width="0.254" layer="21"/>
 <circle x="-2.54" y="0" radius="0.8382" width="0" layer="21"/>
 </package>
+<package name="MOLEX_503182-1852">
+<rectangle x1="7.08471875" y1="-4.183690625" x2="7.47" y2="-1.775" layer="39"/>
+<rectangle x1="-3.65928125" y1="-2.681809375" x2="5.55" y2="0.725" layer="41"/>
+<rectangle x1="-3.65585" y1="0.7261625" x2="5.55" y2="5.485" layer="43"/>
+<rectangle x1="-3.65771875" y1="0.726534375" x2="5.55" y2="5.485" layer="41"/>
+<rectangle x1="-3.654709375" y1="0.725934375" x2="5.55" y2="5.485" layer="42"/>
+<wire x1="-7.07" y1="8.225" x2="7.07" y2="8.225" width="0.127" layer="51"/>
+<wire x1="7.07" y1="8.225" x2="7.07" y2="-6.725" width="0.127" layer="51"/>
+<wire x1="7.07" y1="-6.725" x2="-7.07" y2="-6.725" width="0.127" layer="51"/>
+<wire x1="-7.07" y1="-6.725" x2="-7.07" y2="8.225" width="0.127" layer="51"/>
+<wire x1="-8" y1="-7.25" x2="8" y2="-7.25" width="0.05" layer="39"/>
+<wire x1="8" y1="-7.25" x2="8" y2="8.5" width="0.05" layer="39"/>
+<wire x1="8" y1="8.5" x2="-8" y2="8.5" width="0.05" layer="39"/>
+<wire x1="-8" y1="8.5" x2="-8" y2="-7.25" width="0.05" layer="39"/>
+<text x="-8.013" y="-6.76096875" size="1.272059375" layer="25" rot="R90">&gt;NAME</text>
+<text x="9.27375" y="-6.76733125" size="1.273259375" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-7.07" y1="7.28" x2="-7.07" y2="8.225" width="0.127" layer="21"/>
+<wire x1="-7.07" y1="8.225" x2="7.07" y2="8.225" width="0.127" layer="21"/>
+<wire x1="7.07" y1="8.225" x2="7.07" y2="7.28" width="0.127" layer="21"/>
+<wire x1="-1.8" y1="-6.725" x2="3.9" y2="-6.725" width="0.127" layer="21"/>
+<circle x="-3.81" y="8.89" radius="0.1" width="0.2" layer="21"/>
+<smd name="1" x="-2.9" y="6.355" dx="0.8" dy="1.24" layer="1"/>
+<smd name="2" x="-1.8" y="6.355" dx="0.8" dy="1.24" layer="1"/>
+<smd name="3" x="-0.7" y="6.355" dx="0.8" dy="1.24" layer="1"/>
+<smd name="4" x="0.4" y="6.355" dx="0.8" dy="1.24" layer="1"/>
+<smd name="5" x="1.5" y="6.355" dx="0.8" dy="1.24" layer="1"/>
+<smd name="6" x="2.6" y="6.355" dx="0.8" dy="1.24" layer="1"/>
+<smd name="7" x="3.7" y="6.355" dx="0.8" dy="1.24" layer="1"/>
+<smd name="8" x="4.8" y="6.355" dx="0.8" dy="1.24" layer="1"/>
+<smd name="P1" x="-7.245" y="5.725" dx="0.95" dy="2.5" layer="1"/>
+<smd name="P2" x="7.145" y="5.875" dx="1.15" dy="2.2" layer="1"/>
+<smd name="SW" x="6.74" y="3.725" dx="1.16" dy="1.25" layer="1"/>
+<smd name="DT" x="6.74" y="-5.275" dx="1.16" dy="1.2" layer="1"/>
+<smd name="P3" x="-7.145" y="-5.605" dx="1.15" dy="2.2" layer="1"/>
+<smd name="P4" x="-2.84" y="-6.4" dx="1.5" dy="1.15" layer="1"/>
+<smd name="P5" x="4.94" y="-6.4" dx="1.5" dy="1.15" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAMES_LETTER_L">
@@ -517,23 +526,6 @@
 <text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
 <text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-</symbol>
-<symbol name="1140084168_1140084168">
-<wire x1="-12.7" y1="17.78" x2="5.08" y2="17.78" width="0.41" layer="94"/>
-<wire x1="5.08" y1="17.78" x2="10.16" y2="12.7" width="0.41" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.41" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-12.7" y2="-12.7" width="0.41" layer="94"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="17.78" width="0.41" layer="94"/>
-<pin name="CLK@5" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="CMD@3" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="DAT0@7" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="DAT1@8" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="DAT2@1" x="15.24" y="10.16" length="middle" rot="R180"/>
-<pin name="DAT3@2" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="VDD_3.3V@4" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="VSS_GND@6" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<text x="-12.7686" y="18.80326875" size="2.08841875" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-12.7293" y="-15.7123" size="2.085209375" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
 <symbol name="CONNECTOR_PI_40_PIN">
 <wire x1="-17.78" y1="50.8" x2="-17.78" y2="-50.8" width="0.254" layer="94"/>
@@ -621,6 +613,25 @@
 <pin name="2" x="10.16" y="0" length="middle" rot="R180"/>
 <pin name="3" x="10.16" y="-2.54" length="middle" rot="R180"/>
 </symbol>
+<symbol name="503182-1852">
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="0" y2="17.78" width="0.254" layer="94"/>
+<text x="0" y="18.3456" size="2.548" layer="95">&gt;NAME</text>
+<text x="0" y="-20.895" size="2.548159375" layer="96">&gt;VALUE</text>
+<pin name="DATA2" x="-5.08" y="15.24" length="middle"/>
+<pin name="CD/DAT3" x="-5.08" y="12.7" length="middle"/>
+<pin name="CMD" x="-5.08" y="10.16" length="middle"/>
+<pin name="CLK" x="-5.08" y="5.08" length="middle" function="clk"/>
+<pin name="DAT0" x="-5.08" y="0" length="middle"/>
+<pin name="DAT1" x="-5.08" y="-2.54" length="middle"/>
+<pin name="VDD" x="-5.08" y="7.62" length="middle" direction="pwr"/>
+<pin name="VSS" x="-5.08" y="2.54" length="middle" direction="pwr"/>
+<pin name="DETECT" x="-5.08" y="-7.62" length="middle"/>
+<pin name="SWITCH" x="-5.08" y="-10.16" length="middle"/>
+<pin name="SHIELD" x="-5.08" y="-15.24" length="middle" direction="pas"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAMES_LETTER_L" prefix="FRAME" uservalue="yes">
@@ -634,35 +645,6 @@ LETTER landscape</description>
 <device name="">
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1140084168_1140084168" prefix="J">
-<gates>
-<gate name="G$1" symbol="1140084168_1140084168" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1140084168_1140084168">
-<connects>
-<connect gate="G$1" pin="CLK@5" pad="5"/>
-<connect gate="G$1" pin="CMD@3" pad="3"/>
-<connect gate="G$1" pin="DAT0@7" pad="7"/>
-<connect gate="G$1" pin="DAT1@8" pad="8"/>
-<connect gate="G$1" pin="DAT2@1" pad="1"/>
-<connect gate="G$1" pin="DAT3@2" pad="2"/>
-<connect gate="G$1" pin="VDD_3.3V@4" pad="4"/>
-<connect gate="G$1" pin="VSS_GND@6" pad="6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Conn; IC Socket; Micro SD; Right Angle; PCB Mount; MicroSD Ser. "/>
-<attribute name="MF" value="Amphenol"/>
-<attribute name="MP" value="1140084168"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -788,6 +770,39 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="503182-1852" prefix="J">
+<description>Conn Micro SD Card M 8 POS 1.09mm Solder RA SMD Embossed T/R 0.5A/Contact</description>
+<gates>
+<gate name="G$1" symbol="503182-1852" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX_503182-1852">
+<connects>
+<connect gate="G$1" pin="CD/DAT3" pad="2"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="3"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DATA2" pad="1"/>
+<connect gate="G$1" pin="DETECT" pad="DT"/>
+<connect gate="G$1" pin="SHIELD" pad="P1 P2 P3 P4 P5"/>
+<connect gate="G$1" pin="SWITCH" pad="SW"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" MICRO SD NORMAL ULTRALOWPRO8CKTE "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="WM12834CT-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/molex/5031821852/WM12834CT-ND/5823232?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Molex"/>
+<attribute name="MP" value="5031821852"/>
+<attribute name="PACKAGE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -801,7 +816,6 @@ LETTER landscape</description>
 </classes>
 <parts>
 <part name="FRAME1" library="ConnectBox_2019" deviceset="FRAMES_LETTER_L" device=""/>
-<part name="J2" library="ConnectBox_2019" deviceset="1140084168_1140084168" device="" value="microSD Socket"/>
 <part name="J1" library="ConnectBox_2019" deviceset="CONNECTOR_PI_40_PIN" device=""/>
 <part name="+3V1" library="ConnectBox_2019" deviceset="+3V3" device=""/>
 <part name="+3V2" library="ConnectBox_2019" deviceset="+3V3" device=""/>
@@ -811,12 +825,15 @@ LETTER landscape</description>
 <part name="+3V3" library="ConnectBox_2019" deviceset="+3V3" device=""/>
 <part name="SUPPLY3" library="ConnectBox_2019" deviceset="GND" device=""/>
 <part name="J3" library="ConnectBox_2019" deviceset="CONNECTOR_4" device="" value="OLED"/>
+<part name="J4" library="ConnectBox_2019" deviceset="503182-1852" device=""/>
+<part name="SUPPLY4" library="ConnectBox_2019" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="76.2" y="114.3" size="1.778" layer="91">N/C</text>
 <text x="76.2" y="96.52" size="1.778" layer="91">N/C</text>
+<text x="76.2" y="91.44" size="1.778" layer="91">N/C</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -824,10 +841,6 @@ LETTER landscape</description>
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="165.1" y="19.05" size="2.54" layer="94"/>
-</instance>
-<instance part="J2" gate="G$1" x="60.96" y="104.14" smashed="yes">
-<attribute name="NAME" x="48.1914" y="122.94326875" size="2.08841875" layer="95" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="48.2307" y="88.4277" size="2.085209375" layer="96" ratio="10" rot="SR0"/>
 </instance>
 <instance part="J1" gate="G$1" x="147.32" y="101.6" smashed="yes">
 <attribute name="NAME" x="147.32" y="154.94" size="2.54" layer="95" align="center"/>
@@ -859,15 +872,22 @@ LETTER landscape</description>
 <attribute name="VALUE" x="218.44" y="111.76" size="2.0828" layer="96" rot="MR180" align="center"/>
 <attribute name="NAME" x="218.44" y="129.54" size="2.0828" layer="95" rot="MR180" align="center"/>
 </instance>
+<instance part="J4" gate="G$1" x="71.12" y="99.06" smashed="yes" rot="MR0">
+<attribute name="NAME" x="71.12" y="119.9456" size="2.548" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="68.58" y="78.165" size="2.548159375" layer="96" rot="MR0"/>
+</instance>
+<instance part="SUPPLY4" gate="GND" x="86.36" y="81.28" smashed="yes">
+<attribute name="VALUE" x="84.455" y="78.105" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="CS" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="DAT3@2"/>
 <wire x1="88.9" y1="111.76" x2="76.2" y2="111.76" width="0.1524" layer="91"/>
 <label x="88.9" y="111.76" size="1.778" layer="95" rot="MR0"/>
+<pinref part="J4" gate="G$1" pin="CD/DAT3"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="SPI_CE0@24"/>
@@ -877,9 +897,9 @@ LETTER landscape</description>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="CMD@3"/>
 <wire x1="88.9" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
 <label x="88.9" y="109.22" size="1.778" layer="95" rot="MR0"/>
+<pinref part="J4" gate="G$1" pin="CMD"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="SPI_MOSI@19"/>
@@ -895,10 +915,10 @@ LETTER landscape</description>
 <wire x1="114.3" y1="149.86" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="VDD_3.3V@4"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <wire x1="96.52" y1="111.76" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="106.68" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
@@ -908,9 +928,9 @@ LETTER landscape</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="VSS_GND@6"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <wire x1="96.52" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND@39"/>
@@ -923,12 +943,17 @@ LETTER landscape</description>
 <wire x1="208.28" y1="134.62" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="SHIELD"/>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
+<wire x1="86.36" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SCLK" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="CLK@5"/>
 <wire x1="88.9" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
 <label x="88.9" y="104.14" size="1.778" layer="95" rot="MR0"/>
+<pinref part="J4" gate="G$1" pin="CLK"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="SPI_SCLK@23"/>
@@ -938,9 +963,9 @@ LETTER landscape</description>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="DAT0@7"/>
 <wire x1="88.9" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
 <label x="88.9" y="99.06" size="1.778" layer="95"/>
+<pinref part="J4" gate="G$1" pin="DAT0"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="SPI_MISO@21"/>
@@ -976,6 +1001,8 @@ LETTER landscape</description>
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,1,76.2,106.68,J4,VDD,+3V3,,,"/>
+<approved hash="104,1,76.2,101.6,J4,VSS,GND,,,"/>
 <approved hash="113,1,124.356,92.606,FRAME1,,,,,"/>
 </errors>
 </schematic>
